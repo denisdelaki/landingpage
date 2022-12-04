@@ -24,26 +24,28 @@
     margin: 1rem;
     text-align: left;
   }
-  .frontend{
+  .frontend, .backend, .design, .writing{
     border: 1px solid black;
-    margin: 1rem;
-    
-  }
-  .backend{
-    border: 1px solid black;
-    margin: 1rem;
-
-  }
-  .design{
-    border: 1px solid black;
-    margin: 1rem;
-
-  }
-  .writing{
-    border: 1px solid black;
-    margin: 1rem;
-
-  }
+    width: 20vw;
+    text-align: left;
+    position: relative;
+    margin-top: 1rem;
+    font-family: serif; 
+    padding-left: 1rem;
+    }
+    .profile{
+      height: 10rem;
+      width: auto;
+      border-radius: 25rem;
+    }
+    #contact{
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-between;
+    }
+    #contact>p{
+      margin-left: 5rem;
+    }
 }
 @media (max-width: 1028px){
   #portfolio{

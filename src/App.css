@@ -5,31 +5,84 @@
   position: relative;
   top:0;
 }
-#services{
-  display: grid; 
-  grid-template-columns: 25% 25% 25% 25%; 
-  margin-left: 5rem;
-  text-align: left;
-}
+
 @media (min-width: 1028px){
   #portfolio{
     height: 100%;
     width: 100%;
     
   }
+  #services{
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%; 
+    margin: 1rem;
+    text-align: left;
+  }
+  .frontend{
+    border: 1px solid black;
+    margin: 1rem;
+    
+  }
+  .backend{
+    border: 1px solid black;
+    margin: 1rem;
+
+  }
+  .design{
+    border: 1px solid black;
+    margin: 1rem;
+
+  }
+  .writing{
+    border: 1px solid black;
+    margin: 1rem;
+
+  }
 }
 @media (max-width: 1028px){
   #portfolio{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     
+  }
+  #services{
+    display: grid; 
+    grid-template-columns: 25% 25% ; 
+   
+    text-align: left;
+  }
+  .frontend{
+    border: 1px solid black;
+   
+  }
+  .backend{
+    border: 1px solid black
+  }
+  .design{
+    border: 1px solid black
+  }
+  .writing{
+    border: 1px solid black
+
   }
 }
 @media (max-width: 600px){
   #portfolio{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     font-size: 2rem;
   }
+  #services{
+    display: grid; 
+    grid-template-columns: 25%; 
+    
+    text-align: left;
+  }
+  .frontend, .backend, .design, .writing{
+    border: 1px solid black;
+    width: 500px;
+    margin: 2.5rem;
+    }
+  
 }
 

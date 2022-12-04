@@ -2,8 +2,7 @@
   background-color: maroon;
   text-align: center;
   color:white;
-  position: relative;
-  top:0;
+  
 }
 .profession{
   transform: rotate(360deg);
@@ -95,11 +94,13 @@
     height: 100%;
     width: 100%;
     font-size: 2rem;
+    position:relative;
+    align-items: center;
   }
   #services{
-    display: grid; 
-    grid-template-columns: 25%; 
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     text-align: left;
   }
   .frontend, .backend, .design, .writing{

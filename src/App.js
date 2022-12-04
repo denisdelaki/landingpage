@@ -8,8 +8,8 @@ function App() {
         <h3>Kipyegon Denis </h3>
         <img src='' alt='profile pic' />
        <h1> Services </h1>
-        <div>
-          <div>
+        <div id='services'>
+          <div class='frontend'>
           <h3>Front-end web development </h3>
           <h4>Languages</h4>
           <ol>
@@ -29,7 +29,7 @@ function App() {
             </li>
           </ol>
           </div>
-          <div>
+          <div class='backend'>
             <h3>Backend Web Development </h3>
             <h4>Languages</h4>
             <ol>
@@ -38,8 +38,8 @@ function App() {
 
             </ol>
           </div>
-          <div>
-            <h2>Web UX/UI Design </h2>
+          <div class='design'>
+            <h3>Web UX/UI Design </h3>
             <h3>Tools</h3>
 
             <ol>
@@ -47,10 +47,14 @@ function App() {
               <li>Sketch</li>
             </ol>
           </div>
-          <div>
-            <h2>Technical Writing</h2>
+          <div class='writing'>
+            <h3>Technical Writing</h3>
+            <ol>
+              <li>Blogs</li>
+              <li>Academic Writings</li>
+            </ol>
           </div>
-    <div>
+    <div id='contact'>
         <p><i>facebook</i></p>
         <p><i>LinkedIn</i></p>
         <p><i>email</i></p>

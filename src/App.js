@@ -6,8 +6,9 @@ function App() {
     <div id='portfolio'>
         <h1>Portfolio</h1>
         <h3>Kipyegon Denis </h3>
-        <img src='' alt='profile pic' />
-       <h1> Services </h1>
+        <img class='profile' src='https://res.cloudinary.com/dnzyg4nux/image/upload/v1670157827/Delaki/kipyegon_denis_profile_g9p5gi.jpg' alt='profile pic' />
+       <p class='profession'>Professional Web Developer</p>
+       <h2> Services </h2>
         <div id='services'>
           <div class='frontend'>
           <h3>Front-end web development </h3>
@@ -55,9 +56,9 @@ function App() {
             </ol>
           </div>
     <div id='contact'>
-        <p><i>facebook</i></p>
-        <p><i>LinkedIn</i></p>
-        <p><i>email</i></p>
+        <p><a href='https://github.com/denisdelaki/'>Github</a></p>
+        <p><a href='https://www.linkedin.com/in/denis-kipyegon-95997123a/'>LinkedIn</a></p>
+        <p><i>email</i>denisdelaki@gmail.com</p>
     </div>
     </div>
     </div>

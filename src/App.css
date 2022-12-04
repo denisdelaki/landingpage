@@ -1,11 +1,17 @@
 #portfolio {
-  background-color: rgb(151, 53, 151);
+  background-color: maroon;
   text-align: center;
   color:white;
   position: relative;
   top:0;
 }
+.profession{
+  transform: rotate(360deg);
+  transition-duration: 3s;
+  transition-delay: 1s;
 
+
+}
 @media (min-width: 1028px){
   #portfolio{
     height: 100%;
@@ -81,7 +87,14 @@
   .frontend, .backend, .design, .writing{
     border: 1px solid black;
     width: 500px;
-    margin: 2.5rem;
+    margin: 1.5rem;
+    font-family: serif; 
+    padding-left: 2rem;
+    }
+    .profile{
+      height: 20rem;
+      width:auto;
+      border-radius: 25rem;
     }
   
 }

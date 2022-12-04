@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div id='portfolio'>
-        <h1>Portfolio</h1>
+        <h1>PORTFOLIO</h1>
         <h3>Kipyegon Denis </h3>
         <img class='profile' src='https://res.cloudinary.com/dnzyg4nux/image/upload/v1670157827/Delaki/kipyegon_denis_profile_g9p5gi.jpg' alt='profile pic' />
        <p class='profession'>Professional Web Developer</p>
@@ -15,18 +15,18 @@ function App() {
           <h4>Languages</h4>
           <ol>
             <li>Javascript
-              <ol>
+              <ul>
                 <li>ReactJs</li>
                 <li>Angular</li>
-              </ol>
+              </ul>
             </li>
             <li>HTML</li>
             <li> CSS
-              <ol>
+              <ul>
                 <li>Boostrap</li>
                 <li>TailwindCSS</li>
                 <li>SASS</li>
-              </ol>
+              </ul>
             </li>
           </ol>
           </div>
@@ -58,7 +58,8 @@ function App() {
     <div id='contact'>
         <p><a href='https://github.com/denisdelaki/'>Github</a></p>
         <p><a href='https://www.linkedin.com/in/denis-kipyegon-95997123a/'>LinkedIn</a></p>
-        <p><i>email</i>denisdelaki@gmail.com</p>
+        <p><i>Email: </i>denisdelaki@gmail.com</p>
+        <p>WhatsApp: +254703103852</p>
     </div>
     </div>
     </div>
